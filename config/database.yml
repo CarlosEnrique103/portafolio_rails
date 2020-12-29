@@ -82,4 +82,5 @@ production:
   <<: *default
   database: portafolio_production
   username: portafolio
+  adapter: postgresql
   password: <%= ENV['PORTAFOLIO_DATABASE_PASSWORD'] %>
